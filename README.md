@@ -1,6 +1,7 @@
 # ImGuiFontConverter
 
-Simple Windows tool to convert .ttf fonts to .h files for ImGui.
+Simple Windows tool to convert .ttf fonts to .h files for ImGui.  
+ (I recommend using ImGui's [binary_to_compressed_c.cpp](https://github.com/ocornut/imgui/blob/master/misc/fonts/binary_to_compressed_c.cpp) instead.)
 
 ## How to get it
 
@@ -9,7 +10,7 @@ Simple Windows tool to convert .ttf fonts to .h files for ImGui.
 
 **Or compile yourself:**
 - Any C++14 compiler (VS 2022, VS 2019, VS 2017, GCC 5+, Clang 3.4+)
-- Just build `converter.cpp` as x64 Release
+- Just build `main.cpp` as x64 Release
 
 ## How to use
 
